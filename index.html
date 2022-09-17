@@ -31,7 +31,6 @@
 	  loadSidebar: true,
 	  coverpage: true,
 	  loadNavbar: true,
-	  onlyCover: true,
 	  search: 'auto', // 默认值
 	  subMaxLevel: 1,
       // 完整配置参数
@@ -49,6 +48,9 @@
 		language:'chinese'
 	  },
 	  sidebarDisplayLevel: 1
+	  <!--plugins: [-->
+      <!--  EditOnGithubPlugin.create('https://github.com/xiongjh456/knowledge-repository/tree/main')-->
+      <!--]-->
     }
   </script>
   <!-- Docsify v4 -->
@@ -60,5 +62,9 @@
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!--Java代码高亮-->
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
 </body>
 </html>
